@@ -1,0 +1,7 @@
+print("It is predict your future, near zero = not good, near 100 = good")
+city_name = input("What's then name of city you grown up?\n")
+username = input("who is your name\n")
+total = ord(username[0]) + ord(city_name[0])
+if total > 100:
+  total = total % 100;
+print("Your score is total " + str(total))
